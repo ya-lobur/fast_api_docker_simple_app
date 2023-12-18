@@ -9,8 +9,15 @@ docker build --platform linux/amd64 -t yalobur/fast_api_docker_simple_app:1.0.0 
 ```
 
 ## Run
+
+### Locally
 ```shell
 docker run -p 8000:8000 fast_api_docker_simple_app
+```
+
+### From Docker Hub
+```shell
+docker run -p 8000:8000 -dt yalobur/fast_api_docker_simple_app:1.0.0
 ```
 
 ## Push
